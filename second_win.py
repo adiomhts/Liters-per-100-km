@@ -1,6 +1,5 @@
-from PyQt5.QtCore import Qt, QTime, QTimer
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLayout, QLineEdit, QHBoxLayout
-from PyQt5.QtGui import QFont 
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout,
 
 
 class Result(QWidget):
