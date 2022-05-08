@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLay
 
 from second_win import Result
 
-class MainWin(QWidget):
+class FirstWin(QWidget):
     def __init__(self):
         super().__init__()
         self.set_appear()
@@ -46,6 +46,6 @@ class MainWin(QWidget):
 
 app = QApplication([])
 
-window = MainWin()
+window = FirstWin()
 
 app.exec_()
